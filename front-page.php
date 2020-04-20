@@ -1,4 +1,4 @@
-<?php echo get_header(); ?> 
+<?php get_header(); ?> 
     <section class="section-contents" id="shop">
       <div class="wrapper">
         <span class="section-title-en">Shop Information</span>
@@ -182,4 +182,4 @@
         </div>
       </div>
     </section>
-<?php echo get_footer(); ?>
+<?php get_footer(); ?>

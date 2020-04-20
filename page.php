@@ -1,4 +1,4 @@
-<?php echo get_header(); ?>
+<?php get_header(); ?>
                 <div class="page-main">
                     <div class="lead-inner">
 <?php
@@ -10,4 +10,4 @@ endif;
 ?>
                     </div>
                 </div>
-<?php echo get_footer(); ?>
+<?php get_footer(); ?>
