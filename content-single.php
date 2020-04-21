@@ -4,10 +4,20 @@
     <div class="news-body"><?php the_content(); ?></div>
 </div>
     <div class="more-news">
+<?php
+$next_post = get_next_post();
+$prev_post = get_previous_post();
+if ( $next_post ):
+?>
     <div class="prev">
-        <a href="#" class="another-link">NEXT</a>
+        <a href="<?php echo get_permalink( $next_post->ID ); ?>" class="another-link">NEXT</a>
     </div>
+<?php
+endif;
+if ( $prev_post ):
+?>
     <div class="next">
-        <a href="#" class="another-link">PREV</a>
+        <a href="<?php echo get_permalink( $prev_post->ID ); ?>" class="another-link">PREV</a>
     </div>
+<?php endif; ?>
 </div>
