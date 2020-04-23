@@ -31,6 +31,11 @@ wp_nav_menu(
 ?>
           </nav>
         </div>
+        <ul class="sns-navi">
+          <li class="twitter"><a href="https://twitter.com/kuroro_kn"></a></li>
+          <li class="facebook"><a href="https://www.facebook.com/kanako.nagiri.1"></a></li>
+          <li class="instagram"><a href="https://www.instagram.com/kurorokn"></a></li>
+        </ul>
       </div>
       <p class="copyright">
         <small class="copyright-text">&#169; 2019 PACIFIC MALL DEVELOPMENT CO.,LTD.</small>
